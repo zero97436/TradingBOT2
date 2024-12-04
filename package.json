@@ -1,0 +1,41 @@
+{
+  "name": "TradingBOT2",
+  "version": "1.0.0",
+  "description": "API de trading pour bot utilisant Alpha Vantage et WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2", 
+    "express-rate-limit": "^6.7.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero97436/TradingBOT2.git"
+  },
+  "keywords": [
+    "trading",
+    "api",
+    "bot",
+    "alpha vantage",
+    "websocket"
+  ],
+  "author": "Your Name",
+  "license": "ISC", 
+  "bugs": {
+    "url": "https://github.com/zero97436/TradingBOT2/issues"
+  },
+  "homepage": "https://github.com/zero97436/TradingBOT2#readme"
+}
